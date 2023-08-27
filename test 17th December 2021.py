@@ -19,6 +19,7 @@ Created on Fri Dec 17 19:11:31 2021
 a=int(input("Kindly provide first number:"))
 b=int(input("Kindly provide second number:"))
 n=[i for i in range(0,(a+(b*2)+1)) if i%2==0]
+print(n)
 
 # def evennumber():
 #     for i in n:
@@ -34,6 +35,8 @@ def nexteven():
     for i in n:
         if i>=a:
             print(i)
+
+nexteven()
             
         
         
